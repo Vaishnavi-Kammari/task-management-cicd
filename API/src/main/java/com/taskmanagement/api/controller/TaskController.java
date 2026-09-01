@@ -19,6 +19,12 @@ public class TaskController {
         this.taskService = taskService;
     }
 
+    @GetMapping("/count")
+    public ResponseEntity<Long> getTaskCount() {
+        long count = taskService.getAllTasks().size();
+        return ResponseEntity.ok(count);
+    }
+
     @GetMapping
     public List<Task> getAllTasks() {
         return taskService.getAllTasks();
