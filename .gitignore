@@ -1,0 +1,18 @@
+# Node
+node_modules/
+UI/dist/
+UI/.env
+
+# Java
+API/target/
+*.class
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/terraform.tfvars
+terraform/.terraform.lock.hcl
+
+# OS
+.DS_Store

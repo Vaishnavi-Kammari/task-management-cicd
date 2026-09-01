@@ -1,0 +1,6 @@
+resource_group_name   = "vaishnavi-rg"
+location               = "Central India"
+app_service_plan_name  = "vaishnavi-asp"
+ui_app_name             = "vaishnavi-ui-app"
+api_app_name            = "vaishnavi-app"
+sku_name                = "B1"
